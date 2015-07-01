@@ -30,6 +30,7 @@ public class Graph {
 		System.out.print(vertexList[v].label + "");
 	}
 	
+	//广度优先
 	public void bfs(){
 		vertexList[0].wasVisited=true;
 		displayVertex(0);
